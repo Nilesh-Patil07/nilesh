@@ -129,6 +129,13 @@ header .navbar ul li a:hover::before{
 	font-weight:700;
 	animation: slideRight 1.5s ease;
 }
+.home .home-text p{
+	color:#fff;
+	margin:15px 0px 0px;
+	font-size: 20px;
+	font-weight:400;
+	width: 55%;
+}
 
 @keyframes slideLeft{
 	0%{transform: translateX(-100%);opacity:0}
