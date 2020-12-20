@@ -135,6 +135,7 @@ header .navbar ul li a:hover::before{
 	font-size: 20px;
 	font-weight:400;
 	width: 55%;
+	animation: slideLeft 1.5s ease;
 }
 
 @keyframes slideLeft{
@@ -619,7 +620,9 @@ transform-origin: left bottom;
 	left:0;
 	padding:0px 15px;
 }
-
+.home .home-text p{ 
+	width: 100%;
+}
 .about .about-content .img{
 	width: 100%;
 }
