@@ -445,7 +445,48 @@ background-color:transparent;
 	display:block;
 }
 
+/*Contact Section*/
 
+
+.contact{
+	float: left;
+	width: 100%;
+	padding:80px 15px; 
+	background-color:#353535;
+}
+
+.contact .contact-content{
+	margin:auto;
+	max-width:650px;
+}
+
+.contact .contact-content input,
+.contact .contact-content textarea{
+	height:50px;
+    border:none;
+    border-left:2px solid transparent;
+	padding:10px 15px;
+	color:#ffffff;
+	margin-bottom:30px;
+	font-size:16px;
+	letter-spacing:1px;
+	font-weight: 400;
+	display: block;
+	width: 100%;
+	background-color: #292929;
+	transition: border .5s ease;
+}
+.contact .contact-content input:focus,
+.contact .contact-content textarea:focus{
+ border-color:#f3971b;
+}
+.contact .contact-content textarea{
+	height: 100px;
+}
+.contact .contact-content button{
+	display: block;
+	margin:auto;
+}
 
 /*Footer Section*/
 
